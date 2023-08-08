@@ -1,0 +1,21 @@
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@layer components{
+    .transition-effect0 {
+        transition-property: opacity;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 1000ms;
+        transition-delay: 500ms;
+        opacity: 0;
+    }
+    .transition-effect1 {
+        transition-property: opacity;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 1000ms;
+        transition-delay: 500ms;
+        opacity: 1;
+    }
+}
+

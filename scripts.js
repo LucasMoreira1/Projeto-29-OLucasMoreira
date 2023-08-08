@@ -2,15 +2,15 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
         if(entry.isIntersecting){
-            entry.target.classList.replace('opacity-0','opacity-100');
+            entry.target.classList.replace('transition-effect0','transition-effect1');
         } else {
-            entry.target.classList.replace('opacity-100','opacity-0');
+            entry.target.classList.replace('transition-effect1','transition-effect0');
 
         }
     })
 })
 
 
-const hiddenElements = document.querySelectorAll('.transition-opacity');
+const hiddenElements = document.querySelectorAll('.efeito');
 hiddenElements.forEach((el) => observer.observe(el))
 

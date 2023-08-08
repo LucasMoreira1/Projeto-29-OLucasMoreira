@@ -5,140 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="tailwind.css">
     <title>O Lucas Moreira</title>
     
 </head>
-<body>
-    <div class="h-screen w-screen overflow-x-hidden">
-        <div class="bg-black w-screen h-screen flex flex-col justify-center px-[100px] cursor-default select-none font-semibold">
-            <h3 class="text-white text-4xl hover:text-6xl transition-opacity opacity-0 duration-1000">O</h3> 
-            <h3 class="text-white text-6xl hover:text-8xl transition-opacity opacity-0 duration-1000">Lucas</h3>        
-            <h3 class="text-white text-6xl hover:text-9xl transition-opacity opacity-0 duration-1000">Moreira</h3>
-        </div>
-        <div class="selection:bg-white w-screen h-screen flex justify-center items-center text-black text-6xl">
-            <p class="transition-opacity opacity-0 duration-1000">Quem sou eu?</p>
-        </div>
+<body class="h-screen w-screen overflow-x-hidden">
+  
+  <section id="first-page" class="bg-black w-screen h-screen flex flex-col justify-center px-[100px] cursor-default select-none font-semibold">
+    <h3 class="text-white text-4xl hover:text-6xl duration-1000">O</h3> 
+    <h3 class="text-white text-6xl hover:text-8xl duration-1000">Lucas</h3>        
+    <h3 class="text-white text-6xl hover:text-9xl duration-1000">Moreira</h3>
+  </section>
 
-        <div class="container h-screen bg-black ">
-          <div
-            class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50 " 
-          >
-            <!-- Esquerdo -->
-            <div class="flex flex-row-reverse md:contents">
-              <div
-                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md "
-              >
-                <h3 class="font-semibold text-lg mb-1 ">2009</h3>
-                <p class="leading-tight text-justify transition-opacity opacity-0 duration-1000">
-                  Curso Técnico de informática.
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div class="h-full w-6 flex items-center justify-center ">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none "></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow "
-                ></div>
-              </div>
-            </div>
-            <!-- Direito -->
-            <div class="flex md:contents">
-              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                ></div>
-              </div>
-              <div
-                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-              >
-                <h3 class="font-semibold text-lg mb-1">2011</h3>
-                <p class="leading-tight text-justify transition-opacity opacity-0 duration-1000">
-                  Inglês fluente.
-                </p>
-              </div>
-            </div>
-            <!-- Esquerdo -->
-            <div class="flex flex-row-reverse md:contents">
-              <div
-                class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
-              >
-                <h3 class="font-semibold text-lg mb-1">2014</h3>
-                <p class="leading-tight text-justify transition-opacity opacity-0 duration-1000">
-                  Alemão Basic.
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                ></div>
-              </div>
-            </div>
-            <!-- Direito -->
-            <div class="flex md:contents">
-              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"
-                ></div>
-              </div>
-              <div
-                class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
-              >
-                <h3 class="font-semibold text-lg mb-1">2021</h3>
-                <p class="leading-tight text-justify transition-opacity opacity-0 duration-1000">
-                  Namoro com a Rainha Angélica minha gostosa.
-                </p>
-              </div>
-            </div>
-            <!-- Esquerdo -->
-            <div class="flex flex-row-reverse md:contents">
-              <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-opacity opacity-0 duration-1000">
-                <h3 class="font-semibold text-lg mb-1">2022</h3>
-                <p class="leading-tight text-justify transition-opacity opacity-0 duration-1000">
-                  Adotamos a Stella, nossa magestade.
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10 transition-opacity opacity-0 duration-1000">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                </div>
-                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
-              </div>
-            </div>
-            <!-- Direito -->
-            <div class="flex md:contents">
-              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative transition-opacity opacity-0 duration-1000">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
-                </div>
-                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
-              </div>
-              <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-opacity opacity-0 duration-1000">
-                <h3 class="font-semibold text-lg mb-1">2023</h3>
-                <p class="leading-tight text-justify">
-                  Amo muito minha gata ♥
-                </p>
-              </div>
-            </div>
+  <section class="selection:bg-white w-screen h-screen flex justify-center items-center text-black text-6xl">
+      <p class="transition-effect0 efeito">Quem sou eu?</p>
+  </section>
+
+  <section class="container h-screen bg-black ">
+    <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
+      <!-- Esquerdo -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1 ">2009</h3>
+          <p class="leading-tight text-justify">
+            Curso Técnico de informática.
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center ">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none "></div>
           </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"></div>
         </div>
-
-        <div class="bg-black w-screen h-screen flex justify-center items-center text-white text-6xl">
-            <p class="transition-opacity opacity-0 duration-1000">Principais projetos:</p>
+      </div>
+      <!-- Direito -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"></div>
         </div>
-        
-        <div class="bg-white w-screen h-screen flex justify-center items-center text-black text-6xl">
-            <p class="transition-opacity opacity-0 duration-1000">Entre em contato!</p>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1">2011</h3>
+          <p class="leading-tight text-justify">
+            Inglês fluente.
+          </p>
         </div>
+      </div>
+      <!-- Esquerdo -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1">2014</h3>
+          <p class="leading-tight text-justify">
+            Alemão Basic.
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div
+            class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"
+          ></div>
+        </div>
+      </div>
+      <!-- Direito -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1">2021</h3>
+          <p class="leading-tight text-justify">
+            Namoro com a Rainha Angélica minha gostosa.
+          </p>
+        </div>
+      </div>
+      <!-- Esquerdo -->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-blue-500 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1">2022</h3>
+          <p class="leading-tight text-justify">
+            Adotamos a Stella, nossa magestade.
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10 ">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"></div>
+        </div>
+      </div>
+      <!-- Direito -->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow transition-effect0 efeito"></div>
+        </div>
+        <div class="bg-blue-500 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-effect0 efeito">
+          <h3 class="font-semibold text-lg mb-1">2023</h3>
+          <p class="leading-tight text-justify">
+            Amo muito minha gata ♥
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <section class="bg-black w-screen h-screen flex justify-center text-white text-6xl">
+      <p class="transition-effect0 efeito">Principais projetos</p>
+      <div id="carrossel">
+        <div id="item-1"></div>
+        <div id="item-2"></div>
+        <div id="item-3"></div>
+        <div id="item-4"></div>
+        <div id="item-5"></div>
+        <div id="item-6"></div>
+      </div>
+  </section>
+  
+  <section class="bg-white w-screen h-screen flex justify-center items-center text-black text-6xl">
+      <p class="transition-effect0 efeito">Entre em contato!</p>
+  </section>
 </body>
 </html>
